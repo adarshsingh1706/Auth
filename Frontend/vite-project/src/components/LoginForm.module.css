@@ -1,13 +1,20 @@
 /* Fullscreen container */
+body{
+  background-image: url("../assets/bg2.jpg") ;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .formContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
+ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 /* Form styling */
@@ -59,4 +66,10 @@ input {
   margin-bottom: 1.5rem;
   font-size: 2rem;
   color: #333;
+}
+
+.message {
+  color: green; /* For success messages */
+  margin-top: 10px;
+  font-size: 16px;
 }
