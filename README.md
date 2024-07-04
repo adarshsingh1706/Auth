@@ -6,9 +6,9 @@
   
 </head>
 <body>
-  <h1>Authentication and Authorization </h1>
+  <h1>Authentication  </h1>
 
-  <p>This repository contains a full-stack web application built with ReactJS for the frontend and Node.js, Express, and MongoDB for the backend. The project focuses on implementing authentication and authorization features.</p>
+  <p>This repository contains a full-stack web application built with ReactJS for the frontend and Node.js, Express, and MongoDB for the backend. The project focuses on implementing authentication features.</p>
 
   <h2>Technologies Used</h2>
   <ul>
@@ -25,7 +25,6 @@
   <h3>Key Features</h3>
   <ul>
     <li><strong>Authentication</strong>: User registration and login using encrypted passwords stored in MongoDB.</li>
-    <li><strong>Authorization</strong>: Protected routes that require valid JWT tokens for access.</li>
     <li><strong>Secure Cookies</strong>: Storing JWT tokens securely in HTTP-only cookies to prevent client-side access.</li>
     <li><strong>React Integration</strong>: Frontend communicates with the backend API using axios for HTTP requests.</li>
   </ul>
