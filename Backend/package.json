@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "backend for Auth",
   "type": "module",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon app.js"
   },
   "author": "Adarsh Singh",
   "license": "ISC",
