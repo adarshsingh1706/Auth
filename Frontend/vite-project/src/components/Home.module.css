@@ -1,0 +1,27 @@
+
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.home li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color:crimson;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.home li a:hover {
+  background-color:tomato;
+}

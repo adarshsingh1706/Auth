@@ -22,7 +22,7 @@ function SignupForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:4000/api/signup', formData)
+    axios.post('https://authbackend-4mq2.onrender.com/api/signup', formData)
       .then((response) => {
         setMessage(response.data.message);
         
